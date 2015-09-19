@@ -8,7 +8,7 @@ This is an object oriented approach for a delayable interval timer with event ma
 Here is an example on how to use it:
 
 ```javascript
-var Timer = require('./timer');
+var Timer = require('@codexp/timer');
 
 var timer = new Timer(1000);
 var counter = 0;
