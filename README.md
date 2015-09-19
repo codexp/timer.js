@@ -26,3 +26,10 @@ timer
     }.bind(timer))
     .start();
 ```
+
+Run test script:
+
+```bash
+$ npm install @codexp/timer
+$ node test
+```
