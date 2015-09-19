@@ -1,6 +1,6 @@
 {
-  "name": "@codexp/Timer",
-  "version": "0.0.1",
+  "name": "@codexp/timer",
+  "version": "0.0.2",
   "description": "Timer Class with delay capability",
   "main": "timer.js",
   "scripts": {
