@@ -4,6 +4,8 @@ var EventEmitter = require('events').EventEmitter;
 
 class Timer extends EventEmitter {
     constructor(callback, ms, start) {
+        super();
+
         this._handle = undefined;
         this.interval = 500;
 
@@ -43,10 +45,7 @@ class Timer extends EventEmitter {
         return this;
     }
 
-    start(callback, ms) {
-        if (undefined !== callback) {
-            this.constructor(callback, ms);
-        }
+    start() {
         if (!this._handle) {
             this._handle = setInterval(function () {
                 this.emit('timer');
