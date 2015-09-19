@@ -1,0 +1,22 @@
+{
+  "name": "@codexp/Timer",
+  "version": "0.0.1",
+  "description": "Timer Class with delay capability",
+  "main": "timer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "codexp/timer.js.git"
+  },
+  "keywords": [
+    "Object",
+    "oriented",
+    "delayable",
+    "timer",
+    "class"
+  ],
+  "author": "CodeXP",
+  "license": "ISC"
+}
